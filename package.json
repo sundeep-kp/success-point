@@ -1,7 +1,7 @@
 {
   "name": "career-academy",
   "version": "1.0.0",
-  "description": "this is a website for my client career academy budharaja",
+  "description": "this is a website for my client success point",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sundeep-kp/career-academy.git"
+    "url": "git+https://https://github.com/sundeep-kp/success-point.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sundeep-kp/career-academy/issues"
+    "url": "https://github.com/sundeep-kp/success-point/issues"
   },
-  "homepage": "https://github.com/sundeep-kp/career-academy#readme",
+  "homepage": "https://https://github.com/sundeep-kp/success-point#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.27",
     "live-server": "^1.2.2",
