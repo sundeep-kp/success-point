@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/assets/css dist/assets/js dist/assets/images && cp index.html dist/ && cp src/js/script.js dist/assets/js/ && cp src/assets/*.jpeg dist/assets/images/ 2>/dev/null || true && cp src/assets/*.png dist/assets/images/ 2>/dev/null || true && tailwindcss -i ./src/assets/css/main.css -o ./dist/assets/css/styles.css --minify",
     "build:css": "tailwindcss -i ./src/assets/css/main.css -o ./dist/assets/css/styles.css --watch"
   },
   "repository": {
