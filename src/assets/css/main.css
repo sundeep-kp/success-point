@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom component layer */
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-lg font-semibold transition;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-black hover:brightness-95;
+  }
+
+  .btn-outline {
+    @apply border-2 border-white text-white hover:bg-white hover:text-primary;
+  }
+
+  .section {
+    @apply py-20 px-6;
+  }
+
+  .container-custom {
+    @apply max-w-6xl mx-auto;
+  }
+}
